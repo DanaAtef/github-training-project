@@ -1,0 +1,40 @@
+body{
+   margin:0;
+    font-family:Arial;
+  background:#f5f5f5;
+}
+
+nav{
+  background:purple;
+    color:white;
+    padding:20px;
+}
+
+.profile{
+     text-align:center;
+    margin-top:100px;
+    color:#333;
+}
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:250px;
+}
+
+section{
+  text-align:center;
+}
+@media(max-width:600px){
+
+    nav{
+        text-align:center;
+    }
+
+    .profile{
+        padding:20px;
+    }
+
+}
